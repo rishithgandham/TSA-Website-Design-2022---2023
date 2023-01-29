@@ -1,3 +1,5 @@
+.main-div{
+}
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -21,6 +23,10 @@
   height: 75px;
   margin-top: 10px;
 }
+.logo-img:hover {
+  transition: 1s;
+  opacity: 0.8;
+}
 .nav-search {
   border-width: 1px;
   box-shadow: 2px 2px 8px pink;
@@ -35,6 +41,10 @@
 .nav-search::placeholder {
   color: black;
 }
+.nav-search:hover {
+  transition: 1s;
+  box-shadow: 5px 5px 5px pink;
+}
 .nav-portfolio {
   padding-right: 100px;
 }
@@ -43,13 +53,25 @@
   color: black;
   text-decoration: none;
 }
+.portfolio:hover {
+  transition: 1s;
+  opacity: 0.5;
+}
 .Show {
   font-size: 20px;
   color: black;
   text-decoration: none;
 }
+.Show:hover {
+  transition: 1s;
+  opacity: 0.5;
+}
 .Activity {
   font-size: 20px;
   color: black;
   text-decoration: none;
+}
+.Activity:hover {
+  transition: 1s;
+  opacity: 0.5;
 }
