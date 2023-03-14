@@ -1,3 +1,4 @@
+/*
 #frame {
 	padding-top: 100px;
   padding-left: 350px;
@@ -5,6 +6,8 @@
 	max-width: 100%;
 	text-align: center;
   height: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 #frame input[type=radio] {
@@ -114,7 +117,7 @@ url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
-	background: #ccc;
+	background: green;
 	margin: 0 10px;
 }
 
@@ -122,7 +125,7 @@ url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
 #frame2:checked~#bullets label:nth-child(2),
 #frame3:checked~#bullets label:nth-child(3),
 #frame4:checked~#bullets label:nth-child(4) {
-	background: #444;
+	background: blue;
 }
 
 @media screen and (max-width: 900px) {
@@ -141,3 +144,4 @@ url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
 		margin: 0 auto;
 	}
 }
+*/

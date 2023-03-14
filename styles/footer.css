@@ -1,0 +1,13 @@
+.footer-main-div {
+  background-color: darkblue;
+  text-align:center;
+  position: relative;
+  left: 100px;
+  height: 200px;
+  width: 500px;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+.view-show-footer {
+  position: absolute;
+}
